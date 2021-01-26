@@ -1,0 +1,62 @@
+.jumbotron,
+.btn,
+.nav:hover{
+    border-radius: 0px;
+}
+
+.product-img{
+    min-height: 100px;
+}
+
+
+.jumbotron {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.name
+{
+	background: indigo;
+	color: whitesmoke;
+}
+
+.black-10{
+	background: #f2f2f2;
+}
+.black-9{
+	background: #e6e6e6;
+}
+.black-8{
+	background: #dd99dd;
+}
+.black-7{
+	background: #cccccc;
+}
+.black-6{
+	background: #bbffbb;
+}
+.black-5{
+	background: #b3b3b3;
+}
+
+
+.cart-badge{
+	border-radius: 50%;
+	padding: 2px;
+	font-size: 12px;
+	font-style:italic;
+	background:rgb(0, 0, 0)
+}
